@@ -107,27 +107,66 @@ Equates to a rotation around Y axis by 180 degrees, maps |0⟩ to i|1⟩ and |1�
 ### Two qubit gates
 1. CNOT gate
 
+The Controlled NOT gate can be used to entangle and disentangle bell states.
+
+**Truth table**:
+
 | a | b | Output |
-| --- | --- | ----- |
+| - | - | ------ |
 | 0 | 0 | 0 |
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
 **Conclusion**:
-* If control bit is 0, |b⟩ is the output
-* If control bit is 1, the output qubit will be obtained by flipping |b⟩
+* If control bit is 0, target flip is the output
+* If control bit is 1, the output qubit will be obtained by flipping target bit
+
+For **|01⟩, 0 is control bit and 1 is target bit**
 
 ![](https://www.researchgate.net/publication/334686887/figure/fig1/AS:784710536032256@1564100979347/Matrix-representation-and-quantum-circuit-of-CNOT-gate.png)
 
-2. Controlled gate
+2. Controlled Z gate
+
+* If control bit is 0 then no change
+* If control bit is 1 then apply Z gate to target bit
+
+**Truth table**:
+
+| Input | Output |
+| ----- | ------ |
+| 00 | 00 |
+| 01 | 01 |
+| 10 | 10 |
+| 11 | -11 |
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQwNBaq5opSmtqOSuGh0SwhDMDN8RsXJCKnenUBYWnMuWTdAmcDpM2nj0_D8eKEuHPLZI&usqp=CAU)
 
 3. Swap gate
 
 ![](https://static-01.hindawi.com/articles/physri/volume-2014/479320/figures/479320.fig.002.jpg)
 
 ### Three qubit gates
-1. CCNOT gate
+1. CCNOT gate / Toffoli gate
+
+It is a universal gate only when combined woth a single qubit Hadamard gate
+
+**Truth table**:
+
+| a | b | c | Output |
+| - | - | - | ------ |
+| 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | **1** |
+| 1 | 1 | 1 | **0** |
+
+**If both the internal bit are |1⟩ state then flip the target bit**
+
+![](https://www.researchgate.net/publication/282460904/figure/fig1/AS:651577236934659@1532359527889/Toffoli-CCNOT-gate-symbol-and-associated-matrix.png)
 
 2. CSWAP gate
 
