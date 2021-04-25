@@ -102,7 +102,17 @@ Equates to a rotation around Y axis by 180 degrees, maps |0⟩ to i|1⟩ and |1�
 | 0 | 0 |
 | 1 | 1 |
 
-6. NOT gate
+6. √NOT gate
+
+It maps the basis state |0⟩ to ((1 + i)|0⟩ + (1 - i)|1⟩)/2 and |1⟩ to ((1 - i)|0⟩ + (1 + i)|1⟩)/2
+
+**Circuit representation**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Qcircuit_SqrtNot.svg/300px-Qcircuit_SqrtNot.svg.png)
+
+**Matrix representation**:
+
+![]()
 
 ### Two qubit gates
 1. CNOT gate
@@ -147,7 +157,7 @@ For **|01⟩, 0 is control bit and 1 is target bit**
 ![](https://static-01.hindawi.com/articles/physri/volume-2014/479320/figures/479320.fig.002.jpg)
 
 ### Three qubit gates
-1. CCNOT gate / Toffoli gate
+1. CCNOT gate / **Toffoli gate**
 
 It is a universal gate only when combined woth a single qubit Hadamard gate
 
@@ -168,8 +178,37 @@ It is a universal gate only when combined woth a single qubit Hadamard gate
 
 ![](https://www.researchgate.net/publication/282460904/figure/fig1/AS:651577236934659@1532359527889/Toffoli-CCNOT-gate-symbol-and-associated-matrix.png)
 
-2. CSWAP gate
+2. CSWAP gate / **Fredkin gate**
+
+**Truth table**:
+
+| a | b | c | Output |
+| - | - | - | ------ |
+| 0 | 0 | 0 | 000 |
+| 0 | 0 | 1 | 001 |
+| 0 | 1 | 0 | 010 |
+| 0 | 1 | 1 | 011 |
+| 1 | 0 | 0 | 100 |
+| 1 | 0 | 1 | 110 |
+| 1 | 1 | 0 | 101 |
+| 1 | 1 | 1 | 111 |
+
+**If control bit is 1 then swap the other two bits**
+
+**Circuit representation**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Fredkin_gate.svg/1200px-Fredkin_gate.svg.png)
+
+**Matrix representation**:
+
+![](https://jeremykun.files.wordpress.com/2015/04/example-3swap2.png)
 
 **3C NOT gate**
+
+**Circuit representation**:
+
+![](https://i.stack.imgur.com/ELZCQ.png)
+
+Here the 5th qubit |0⟩ is called ancilla qubit it starts with |0⟩ and ends in |0⟩ when the circuit is applied. It is needed for calculation and does not actually take part in input-output
 
 ## Bloch sphere
