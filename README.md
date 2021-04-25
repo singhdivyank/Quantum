@@ -212,3 +212,5 @@ It is a universal gate only when combined woth a single qubit Hadamard gate
 Here the 5th qubit |0⟩ is called ancilla qubit it starts with |0⟩ and ends in |0⟩ when the circuit is applied. It is needed for calculation and does not actually take part in input-output
 
 ## Bloch sphere
+
+![](https://miro.medium.com/max/3184/1*qVOpHOnoxiNDK33znIXmjA.png)
