@@ -29,6 +29,8 @@ Rotates a qubit by 180 degrees in XZ plane. It can be considered as a X gate fol
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJ2do2WiVrR9NKmYfED1TxNuJr1rCQeVjww&usqp=CAU)
 
+This means a measurement will have equal probabilities to result in 0 or 1 i.e. creates superposition
+
 **Circuit representation**:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Hadamard_gate.svg/300px-Hadamard_gate.svg.png)
@@ -44,9 +46,17 @@ Rotates a qubit by 180 degrees in XZ plane. It can be considered as a X gate fol
 
 2.  X gate
 
-**Circuit representation**
+A bit flip gate equivalent to NOT gate in classical computers
+
+![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/95986i683E040D17666026?v=v2)
+
+**Circuit representation**:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/43/Qcircuit_X.svg)
+
+**Matrix representation**:
+
+![](https://desireevl.com/images/intro_unitary/X.png)
 
 3. Y gate
 
