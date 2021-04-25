@@ -25,7 +25,7 @@ Reversibility means from any possible output it is possible to get unique input 
 ### Single qubit gates
 1. Hadamard gate
 
-Rotates a qubit by 180 degrees in XZ plane. It can be considered as a X gate followed by 90 degree rotation about Y axis
+Rotates a qubit by 180 degrees in the XZ plane. It can be considered as a X gate followed by 90 degree rotation about Y axis
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJ2do2WiVrR9NKmYfED1TxNuJr1rCQeVjww&usqp=CAU)
 
@@ -43,10 +43,9 @@ This means a measurement will have equal probabilities to result in 0 or 1 i.e. 
 
 ![](https://miro.medium.com/max/780/1*IFAIKjWcInXkRQPn2wCgQg.png)
 
-
 2.  X gate
 
-A bit flip gate equivalent to NOT gate in classical computers
+A bit flip gate equivalent to NOT gate in classical computers i.e. it maps |0⟩ to |1⟩ and |1⟩ to |0⟩. It equates to a rotation around X axis by 180 degrees
 
 ![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/95986i683E040D17666026?v=v2)
 
@@ -58,17 +57,27 @@ A bit flip gate equivalent to NOT gate in classical computers
 
 ![](https://desireevl.com/images/intro_unitary/X.png)
 
-3. Y gate
-
-**Circuit representation**
-
-![](https://upload.wikimedia.org/wikipedia/commons/7/79/Qcircuit_Y.svg)
-
-4. Z gate
+3. Z gate
 
 **Circuit representation**
 
 ![](https://upload.wikimedia.org/wikipedia/commons/f/f7/Qcircuit_Z.svg)
+
+4. Y gate
+
+Equates to a rotation around Y axis by 180 degrees, maps |0⟩ to i|1⟩ and |1⟩ to -i|0⟩
+
+**Circuit representation**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/79/Qcircuit_Y.svg)
+
+**Matrix representation and relationship between X, Y and Z gate**:
+
+![](https://desireevl.com/images/intro_unitary/Y.png)
+
+Computation performed by Y gate-
+
+![](https://desireevl.com/images/intro_unitary/Y0.png)
 
 5. I gate
 
@@ -81,6 +90,8 @@ A bit flip gate equivalent to NOT gate in classical computers
 
 3. Swap gate
 
+![](https://static-01.hindawi.com/articles/physri/volume-2014/479320/figures/479320.fig.002.jpg)
+
 ### Three qubit gates
 1. CCNOT gate
 
@@ -88,4 +99,4 @@ A bit flip gate equivalent to NOT gate in classical computers
 
 **3C NOT gate**
 
-## Block sphere
+## Bloch sphere
