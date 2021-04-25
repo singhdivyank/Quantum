@@ -97,10 +97,28 @@ Equates to a rotation around Y axis by 180 degrees, maps |0⟩ to i|1⟩ and |1�
 
 5. I gate
 
+| Input | Output |
+| ----- | ------ |
+| 0 | 0 |
+| 1 | 1 |
+
 6. NOT gate
 
 ### Two qubit gates
 1. CNOT gate
+
+| a | b | Output |
+| --- | --- | ----- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+**Conclusion**:
+* If control bit is 0, |b⟩ is the output
+* If control bit is 1, the output qubit will be obtained by flipping |b⟩
+
+![](https://www.researchgate.net/publication/334686887/figure/fig1/AS:784710536032256@1564100979347/Matrix-representation-and-quantum-circuit-of-CNOT-gate.png)
 
 2. Controlled gate
 
