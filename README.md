@@ -43,9 +43,9 @@ This means a measurement will have equal probabilities to result in 0 or 1 i.e. 
 
 ![](https://miro.medium.com/max/780/1*IFAIKjWcInXkRQPn2wCgQg.png)
 
-2.  X gate
+2.  X gate / **Pauli X gate**
 
-A bit flip gate equivalent to NOT gate in classical computers i.e. it maps |0⟩ to |1⟩ and |1⟩ to |0⟩. It equates to a rotation around X axis by 180 degrees
+A **bit flip gate** equivalent to NOT gate in classical computers i.e. it maps |0⟩ to |1⟩ and |1⟩ to |0⟩. It equates to a rotation around X axis by 180 degrees
 
 ![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/95986i683E040D17666026?v=v2)
 
@@ -57,13 +57,29 @@ A bit flip gate equivalent to NOT gate in classical computers i.e. it maps |0⟩
 
 ![](https://desireevl.com/images/intro_unitary/X.png)
 
-3. Z gate
+**Mapping |1⟩ to |0⟩**
 
-**Circuit representation**
+![](https://desireevl.com/images/intro_unitary/X1.png)
+
+3. Z gate / **Pauli Z gate**
+
+A **phase shift gate** that maps |0⟩ to |0⟩ and |1⟩ to -1|1⟩. It equates to a rotation around Z axis by 180 degrees
+
+**Circuit representation**:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/f/f7/Qcircuit_Z.svg)
 
-4. Y gate
+**Matrix representation**:
+
+![](https://phyworld.pk/wp-content/uploads/2020/12/Screenshot-79.png)
+
+**Demonstrating phase shift**
+
+![](https://desireevl.com/images/intro_unitary/Z0.png)
+
+![](https://desireevl.com/images/intro_unitary/Z1.png)
+
+4. Y gate / **Pauli Y gate**
 
 Equates to a rotation around Y axis by 180 degrees, maps |0⟩ to i|1⟩ and |1⟩ to -i|0⟩
 
@@ -75,7 +91,7 @@ Equates to a rotation around Y axis by 180 degrees, maps |0⟩ to i|1⟩ and |1�
 
 ![](https://desireevl.com/images/intro_unitary/Y.png)
 
-Computation performed by Y gate-
+**Mapping |0⟩ to i|1⟩**
 
 ![](https://desireevl.com/images/intro_unitary/Y0.png)
 
