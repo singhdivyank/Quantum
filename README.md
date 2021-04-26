@@ -6,7 +6,7 @@ Contains codes as Jupyter notebooks tried on IBM Quiskit in different folders. B
 
 ## What is Quantum computing
 
-Quantum computing harnesses the phenomenon of Quantum mechanics to solve cmplex problems that powerful super computers cannot and will not solve. Supercomputers are unable to have working memory to hold the myriad combinations of real world problems, they analyze each combination one after the other which is time consuming. Such scenarios lead to the birth of Quantum computing. Real life applications of Quantum Computing- [Quantum battery in electric vehicles](https://www.ibm.com/case-studies/daimler/), [Searching for Higgs event and discovery of Universe](https://www.ibm.com/case-studies/cern/)
+Quantum computing harnesses the phenomenon of Quantum mechanics to solve complex problems that powerful super computers cannot and will not solve. Supercomputers are unable to have working memory to hold the myriad combinations of real world problems, they analyze each combination one after the other which is time consuming. Such scenarios lead to the birth of Quantum computing. Real life applications of Quantum Computing- [Quantum battery in electric vehicles](https://www.ibm.com/case-studies/daimler/), [Searching for Higgs event and discovery of Universe](https://www.ibm.com/case-studies/cern/)
 
 ## Advantages of Quantum Computers
 
