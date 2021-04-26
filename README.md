@@ -226,4 +226,14 @@ Here the 5th qubit |0⟩ is called ancilla qubit it starts with |0⟩ and ends i
 
 ## Bloch sphere
 
+A geometric representation (3 dimensional) of pure state space of a single qubit. The North pole is chosen for the basis vector |0⟩ (spin up) and South pole for basis vector |1⟩ (spin down). The points on the surface correspond to [pure states](https://en.wikipedia.org/wiki/Quantum_state#Superposition_of_pure_states) of the system whereas interior points correspond to [mixed states](https://en.wikipedia.org/wiki/Quantum_state#Mixed_states)
+
+An advantage of Bloch sphere is that the evolution of the qubit is describable by rotations of Bloch sphere.
+
+**Rotations of Bloch sphere about Cartesian axis in Bloch basis**:
+
+![](http://einsteinrelativelyeasy.com/images/Quantum/hadamard_decomposition_1.gif)
+
+**Rotations of qubit after logic gate operations**:
+
 ![](https://miro.medium.com/max/3184/1*qVOpHOnoxiNDK33znIXmjA.png)
