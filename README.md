@@ -150,7 +150,24 @@ For **|01⟩, 0 is control bit and 1 is target bit**
 
 3. Swap gate
 
+Swaps the state of two qubits involved in operation
+
+**Truth table**:
+
+| Input | Output |
+| ----- | ------ |
+| 00 | 00 |
+| 01 | 10 |
+| 10 | 01 |
+| 11 | 11 |
+
+**Circuit representation**:
+
 ![](https://static-01.hindawi.com/articles/physri/volume-2014/479320/figures/479320.fig.002.jpg)
+
+**Matrix representation**:
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65UDk4od4hMSOb78eSgf9IYfyIIDtE2TYgQ&usqp=CAU)
 
 ### Three qubit gates
 1. CCNOT gate / **Toffoli gate**
