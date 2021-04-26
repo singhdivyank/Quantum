@@ -39,10 +39,6 @@ This means a measurement will have equal probabilities to result in 0 or 1 i.e. 
 
 ![](https://miro.medium.com/max/366/1*NsjB5wjw2Hbk9AKWObtFHA.png)
 
-**Reversibility of Hadamard gate**:
-
-![](https://miro.medium.com/max/780/1*IFAIKjWcInXkRQPn2wCgQg.png)
-
 2.  X gate / **Pauli X gate**
 
 A **bit flip gate** equivalent to NOT gate in classical computers i.e. it maps |0⟩ to |1⟩ and |1⟩ to |0⟩. It equates to a rotation around X axis by 180 degrees
