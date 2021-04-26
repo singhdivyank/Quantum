@@ -125,7 +125,7 @@ The Controlled NOT gate can be used to entangle and disentangle bell states.
 | 1 | 1 | 0 |
 
 **Conclusion**:
-* If control bit is 0, target flip is the output
+* If control bit is 0, target bit is the output
 * If control bit is 1, the output qubit will be obtained by flipping target bit
 
 For **|01⟩, 0 is control bit and 1 is target bit**
