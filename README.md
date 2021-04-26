@@ -59,7 +59,7 @@ A **bit flip gate** equivalent to NOT gate in classical computers i.e. it maps |
 
 3. Z gate / **Pauli Z gate**
 
-A **phase shift gate** that maps |0⟩ to |0⟩ and |1⟩ to -1|1⟩. It equates to a rotation around Z axis by 180 degrees
+A **phase shift gate** that maps |0⟩ to |0⟩ and |1⟩ to -|1⟩. It equates to a rotation around Z axis by 180 degrees
 
 **Circuit representation**:
 
