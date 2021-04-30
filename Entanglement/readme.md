@@ -27,7 +27,11 @@ which is still the same state
 
 ## Quantum circuit
 
-A computational routine consisting of coherent quantum operations on qubits and concurrent real-time classical computation. It is an ordered sequence of quantum gates, measurements and resets, all of which may be conditioned on and use data from the real-time classical computation
+A qunatum circuit object is used to store our circuits,  this is essentially a list of the quantum operations on our circuit and the qubits they are applied to. In a quantum circuit the qubit always start in the state |0⟩ using initialise() it can be transformed to any state
+
+## Qiskit simulators
+
+Used to view the resulting state of qubit
 
 ## Quantum register
 
