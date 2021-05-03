@@ -169,6 +169,12 @@ Swaps the state of two qubits involved in operation
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65UDk4od4hMSOb78eSgf9IYfyIIDtE2TYgQ&usqp=CAU)
 
+4. CROT gate
+
+Controlled rotation gate
+
+![](https://image2.slideserve.com/4731414/crot-gate-a-two-qubit-gate-l.jpg)
+
 ### Three qubit gates
 1. CCNOT gate / **Toffoli gate**
 
