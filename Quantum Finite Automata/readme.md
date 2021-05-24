@@ -12,8 +12,24 @@ The automata work by receiving finite-length string of letters from a finite alp
 Given below is an example of such a system represented by a classical finite automation and state transition table
 
 * Transition table
+
+| | A | B | C |
+|-| -- | -- | -- |
+|A|2+3i|3+5i|1-2i|
+|B|2-5i|6+4i|1+0.04i|
+|C|8.5-5i|8+6i|5+4i|
+
 * State diagram
+
+![](https://github.com/singhdivyank/Quantum/blob/main/Quantum%20Finite%20Automata/State%20diagram/state_diagram.png)
 
 ## Measure-all
 
 The general framework resembles that of measure-once automata except that instead of one projection at the end there is a projection (measurement) performed after each letter is read
+
+# Steps performed in jupyter notebook
+
+* Received all states in automata i.e. A, B, C
+* Created the transition table using user input
+* Represented the transition table as a state diagram
+* Multiplied the mattrices of individual states in reverse order i.e. CBA
