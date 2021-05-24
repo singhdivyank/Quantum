@@ -32,4 +32,4 @@ The general framework resembles that of measure-once automata except that instea
 * Received all states in automata i.e. A, B, C
 * Created the transition table using user input
 * Represented the transition table as a state diagram
-* Multiplied the mattrices of individual states in reverse order i.e. CBA
+* Multiplied the matrices of individual states in reverse order i.e. CBA
