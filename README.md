@@ -178,7 +178,7 @@ Controlled rotation gate
 ### Three qubit gates
 1. CCNOT gate / **Toffoli gate**
 
-It is a universal gate only when combined woth a single qubit Hadamard gate
+It is a universal gate only when combined with a Hadamard gate
 
 **Truth table**:
 
