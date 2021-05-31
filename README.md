@@ -1,6 +1,6 @@
 # Quantum Computing
 
-## About this repositry
+## About this repository
 
 Contains codes as Jupyter notebooks tried on IBM Quiskit in different folders. Before looking at the notebooks lets first understand about Quantum computing. 
 
