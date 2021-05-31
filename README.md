@@ -20,7 +20,7 @@ Quantum computing harnesses the phenomenon of Quantum mechanics to solve complex
 
 Like digital computers have classical logic gates operating on bits similarly quantum computers have quantum gates operating on **[qubits](https://www.quantum-inspire.com/kbase/what-is-a-qubit/)**. Unlike logic gates **all quantum gates are reversible**. 
 
-Reversibility means from any possible output it is possible to get unique input corresponding to output. Explained below are some quantum gates frequently used by-
+Reversibility means from any possible output it is possible to get unique input corresponding to output. Explained below are some frequently used quantum gates-
 
 ### Single qubit gates
 1. Hadamard gate
