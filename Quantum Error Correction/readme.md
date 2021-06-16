@@ -47,9 +47,9 @@ Consider a binary symmetric channel where a bit is sent as an input and has a ce
 
 | Input | Output | Probability |
 | ----- | ------ | ----------- |
-| 0 | 0 | P | ------ (1)
+| 0 | 0 | P ------ (1) |
 | 0 | 1 | 1-P |
-| 1 | 0 | P | ------ (2)
+| 1 | 0 | P ------ (2) |
 | 1 | 1 | 1-P |
 
 (1) and (2) comprise bit flip error. 
