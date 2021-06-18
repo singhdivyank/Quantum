@@ -1,6 +1,16 @@
-A secure communication method which implements a cryptographic protocol implementing a cryptographic protocol involving components of quantum mechanics. It enables two parties to produce a shared random secret key known to them which can then be used to encrypt and decrypt messages
+A more accurate name for **Quantum [Cryptography](https://www.geeksforgeeks.org/classical-cryptography-and-quantum-cryptography/?ref=rp)** is Quantum keys. It uses quantum physics to secure the distribution of symmetric encryption keys. It enables two parties to produce a shared random secret key known to them which can then be used to encrypt and decrypt messages
 
-It is used to produce and distribute a key, not to transmit any message data. This key can then be used with any chosen encryption algorithm to encrypt a message which can then be ttransmitted over a standard communication channel
+It is used to produce and distribute a key, not to transmit any message data. This key can then be used with any chosen encryption algorithm to encrypt a message which can then be transmitted over a standard communication channel.
+
+# Difference between classical and Quantum cryptography
+
+| Criteria | Classical | Quantum |
+| -------- | --------- | ------- |
+| Based on | Mathmatical calculations | Quantum mechanics |
+| Digital signature | Present | Absent |
+| Bit rate | Depends on computational power | Average 1 MBPS |
+| Bit storage | 2n n-bit strings | one n-bit string |
+| Communication medium | Independent | Dependent |
 
 # Importance
 
@@ -44,9 +54,9 @@ If **Bob measured** a qubit **in the same basis Alice prepared it in**, they **u
 
 Finally, Bob and Alice share a random sample of their keys, and if the samples match, they can be sure (to a small margin of error) that their transmission is successful
 
-# Qunatum Key exchange
+# Quantum Key exchange
 
-Qunatum key distribution exploits certain properties of quantum states to ensure its security. There are several different approaches but they can be divided into two main categories - [Prepare and Measure protocols](https://www.nature.com/articles/srep35032#:~:text=The%20prepare%2Dand%2Dmeasure%20BB84,photon%20is%20transferred%20to%20Bob.) and [Entanglement based protocols](https://www.researchgate.net/publication/261447480_An_entanglement-based_quantum_key_distribution_protocol)
+Quantum key distribution exploits certain properties of quantum states to ensure its security. There are several different approaches but they can be divided into two main categories - [Prepare and Measure protocols](https://www.nature.com/articles/srep35032#:~:text=The%20prepare%2Dand%2Dmeasure%20BB84,photon%20is%20transferred%20to%20Bob.) and [Entanglement based protocols](https://www.researchgate.net/publication/261447480_An_entanglement-based_quantum_key_distribution_protocol)
 
 # Qiskit implementation
 
