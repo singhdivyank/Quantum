@@ -46,7 +46,7 @@ Finally, Bob and Alice share a random sample of their keys, and if the samples m
 
 # Qunatum Key exchange
 
-Qunatum key distribution exploits certain properties of quantum states to ensure its security. There are several different approaches but they can be divided into two main categories - [Prepare and Measure protocols]() and [Entanglement based protocols]()
+Qunatum key distribution exploits certain properties of quantum states to ensure its security. There are several different approaches but they can be divided into two main categories - [Prepare and Measure protocols](https://www.nature.com/articles/srep35032#:~:text=The%20prepare%2Dand%2Dmeasure%20BB84,photon%20is%20transferred%20to%20Bob.) and [Entanglement based protocols](https://www.researchgate.net/publication/261447480_An_entanglement-based_quantum_key_distribution_protocol)
 
 # Qiskit implementation
 
