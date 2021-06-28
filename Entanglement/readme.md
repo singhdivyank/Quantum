@@ -51,4 +51,4 @@ Measuring a single qubit, whose quantum state is represented by the vector ∣Y�
 
 To measure ∣Y⟩ in ∣0⟩ and ∣1⟩:
 
-P(0) = |<Y∣0⟩|^2 and P(1) = |<Y∣1⟩|^2 where <Y∣0⟩ and <Y∣1⟩ is [bra-ket notation](https://www.youtube.com/watch?v=ctXDXABJRtg)
+P(0) = |<Y∣0⟩|<sup>2</sup> and P(1) = |<Y∣1⟩|<sup>2</sup> where <Y∣0⟩ and <Y∣1⟩ is [bra-ket notation](https://www.youtube.com/watch?v=ctXDXABJRtg)
