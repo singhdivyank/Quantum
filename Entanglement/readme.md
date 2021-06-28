@@ -45,7 +45,7 @@ An array of [flip-flops](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
 
 Takes a quantum state and projects it to one of the basis vectors with a likelihood equal to square of vector's depth along the [basis](https://www.quantum-inspire.com/kbase/qubit-basis-states/) vector. As it assigns the observed quantum state to a single value it is irreversible thus cannot be a quantum gate.
 
-Measuring a single qubit, whose quantum state is represented by the vector ∣Y⟩ = a∣0⟩ + b∣1⟩ will result in ∣0⟩ with probability |a|^2 and ∣1⟩ with probability |b|^2
+Measuring a single qubit, whose quantum state is represented by the vector ∣Y⟩ = a∣0⟩ + b∣1⟩ will result in ∣0⟩ with probability |a|<sup>2</sup> and ∣1⟩ with probability |b|<sup>2</sup>
 
 ![](https://miro.medium.com/max/1200/1*wEVOl6Cqr7_JtyfXcQCezQ.png)
 
