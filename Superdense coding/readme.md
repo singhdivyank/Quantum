@@ -11,7 +11,7 @@ It is the underlying principle of secure quantum secret coding
 
 ## Importance of entanglement
 
-If Alice and Bob do not share entanglement before the protocol begins then it is impossible then it is impossible to send two classical bits using a single qubit
+If Alice and Bob do not share entanglement before the protocol begins then it is impossible to send two classical bits using a single qubit
 
 ## Importance of two qubits
 
